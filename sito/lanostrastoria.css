@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#e5bc88;
+    margin: 0px;
+    font-family:"Lexend Zetta", sans-serif;
+
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    padding: 20px 20px;
+    margin: 0px 0px;
+    font-family:"Lexend Zetta", sans-serif;
+    
+
+
+}
+.nav-left , .nav-right {
+   color: #29231a;
+    text-decoration: none;
+    padding: 0px 150px;
+    
+}
+.nav-center{
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+
+    
+}
+.nav-left:hover, .nav-right:hover{
+    cursor: pointer;
+}
+
+  
+
+
+div#immaginitop{
+    display: flex;
+    flex-direction: row;
+    font-family:"Lexend Zetta", sans-serif;
+    margin-top:0px;
+    margin-bottom:0px ;
+}
+.immaginesfondo {
+   height: 765px;
+   width: 70%;
+   margin-right: 0px;
+   box-shadow:  0px 0px 10px 0px;
+   
+  
+}
+   
+  
+  .textprimo{
+    color:burlywood;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color:#29231a;
+    margin: 0px;
+    padding: 25px;
+    box-shadow: inset 0px 0px 0px 0px;
+    text-align: center;
+  }
+ 
+ .h2intermezzo{
+    display: inline-block;
+    border-bottom:2px solid burlywood ;
+    padding-bottom: 10px;
+ }
+  div#intermezzo{
+    text-align: center;
+    background-color:#29231a ;
+    color: burlywood;
+    padding:100px 300px 100px 300px;
+
+ }
+ .bottoneccsc{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family:"Lexend Zetta", sans-serif;
+    font-size: large;
+    border: none;
+   
+   
+ }
+ .bottoneccsc:hover{
+    cursor: pointer;
+    background-color: rgb(219, 170, 106);
+    
+ }
+ 
+ 
+  div#fotosfondocatalogo{
+background-image: url("https://images.unsplash.com/photo-1617371067811-6f7535979874?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;
+padding-bottom: 100px;
+  }
+  
+  div#viaggi{
+    text-align: center;
+  }
+  
+  .h2sottolineato{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-top: 160px;
+    padding-right: 20px;
+    
+}
+
+
+
+div#catalogo{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin:120px 60px 0px 50px;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+#catalogo a img {
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    transition: transform 0,2 ease, box-shadow 0.2 ease;
+    border-radius:10px;
+   
+}
+.immaginemezzo{
+    margin-right: 0px 20px 0px 0px ;
+   
+}
+.voce{
+    text-align: center;
+    font-size: large;
+}
+   .voce a img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 5px burlywood;
+   }
+  
+
